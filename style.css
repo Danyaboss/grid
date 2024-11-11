@@ -1,0 +1,208 @@
+@font-face {
+    font-family:'tt-norms';
+    src: url('shrift/tt-norms-regular.otf');
+    font-weight: bold;
+}
+
+body {
+    font-family:'tt-norms';
+    border: 4px solid #fff;
+    border-radius: 40px;
+    width: 375px;
+    height: 700px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.02), 0 7px 5px 0 rgba(0, 0, 0, 0.03), 0 13px 10px 0 rgba(0, 0, 0, 0.04), 0 22px 18px 0 rgba(0, 0, 0, 0.04), 0 42px 33px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07);
+    background: #f1f4f9;
+}
+.conteiner {
+    margin-left: 16px;
+}
+.title {
+    font-size: 34px;
+    color: #474747;
+    margin-bottom: 11px;
+}
+.filtrs {
+    margin-top: 0;
+    font-size: 14px;
+    color: #979ea6;
+}
+.knopki {
+    gap: 8px;
+    display: flex;
+}
+.button {
+    border-radius: 10px;
+    width: 121px;
+    height: 41px;
+    box-shadow: 0 5px 20px 0 rgba(253, 113, 75, 0.25);
+    background: linear-gradient(270deg, #fd814a 0%, #fc5c4c 100%);
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    padding: 10px 10px;
+}
+.button > button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    
+}
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+}
+.kart {
+    width: 343px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 164px;
+    
+    
+    
+}
+.kart > img:first-of-type {
+    grid-row: 1 / 3;
+}
+.after-kart {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    width: 343px;
+    height: 61px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    padding: 18px 13px;
+    margin-bottom: 8px;
+    
+}
+.picture-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.kart-2 {
+    width: 343px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 164px;
+    
+    
+    
+}
+.kart-2 > img:first-of-type {
+    grid-row: 1 / 3;
+}
+.after-kart-2 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    width: 343px;
+    height: 61px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    padding: 18px 13px;
+    margin-bottom: 8px;
+    
+}
+.conteiner-2 {
+    font-family:'tt-norms';
+    border: 4px solid #fff;
+    border-radius: 40px;
+    width: 375px;
+    height: 850px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.02), 0 7px 5px 0 rgba(0, 0, 0, 0.03), 0 13px 10px 0 rgba(0, 0, 0, 0.04), 0 22px 18px 0 rgba(0, 0, 0, 0.04), 0 42px 33px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07);
+    background: #f1f4f9;
+    position: relative;
+    top: 100px;
+    left: -15px;
+}
+.directoria {
+    margin-left: 16px;
+}
+.title-2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #474747;
+}
+.box {
+    border-radius: 8px;
+    width: 109px;
+    height: 72px;
+    object-fit: cover;
+}
+.imges {
+    display: flex;
+    gap: 8px;
+}
+.img {
+    flex-direction: column;
+    width: 109px;
+    height: 110px;
+}
+.img > span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #979ea6;
+}
+.picture-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.kart-3 {
+    width: 343px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 164px;
+    row-gap: 18px;
+    column-gap: 18px;
+    margin-left: 16px;    
+}
+.pic1 {
+    border-radius: 16px;
+    width: 343px;
+    height: 210px;
+    object-fit: cover;
+}
+.pic2 {
+    border-radius: 12px;
+    width: 162px;
+    height: 162px;
+    object-fit: cover;
+}
+.pic3 {
+    border-radius: 12px;
+    width: 162px;
+    height: 342px;
+    object-fit: cover;
+}
+.pic4 {
+    border-radius: 12px;
+    width: 162px;
+    height: 162px;
+    object-fit: cover;
+}
+.kart-3 > img:first-of-type {
+    grid-column: 1 / 3;
+}
+.kart-3 > .pic3 {
+    grid-column: 2;
+    grid-row: 2 / 4;
+}
